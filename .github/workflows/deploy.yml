@@ -1,4 +1,4 @@
-name: CI
+name: BuiLd and deploy angular app
 
 on:
   push:
