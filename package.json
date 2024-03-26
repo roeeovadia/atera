@@ -2,7 +2,10 @@
   "name": "@atera/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+
+    "publish": "nx run atera:build:production --base-href https://roeeovadia.github.io/atera/"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.2.0",
