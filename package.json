@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-
     "publish": "nx run atera:build:production --base-href https://roeeovadia.github.io/atera/"
   },
   "private": true,
@@ -22,7 +21,7 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~17.2.0",
+    "@angular-devkit/build-angular": "^17.3.2",
     "@angular-devkit/core": "~17.2.0",
     "@angular-devkit/schematics": "~17.2.0",
     "@angular-eslint/eslint-plugin": "~17.0.0",
