@@ -31,6 +31,9 @@ jobs:
       - uses: nrwl/nx-set-shas@v4
 
       # - run: git branch --track main origin/main
+      - run: npm i
+
+
       - run: nx run atera:build:production
       - run: npx nx affected -t deploy --no-agents
 
